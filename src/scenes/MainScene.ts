@@ -1,11 +1,13 @@
-export default class PreloaderScene extends Phaser.Scene {
+export default class MainScene extends Phaser.Scene {
   constructor() {
-    super({ key: 'PreloaderScene' })
+    super({ key: 'MainScene' })
   }
 
   preload() {}
 
-  create() {}
+  create() {
+    this.scene.start('MainScene')
+  }
 
   update() {}
 }

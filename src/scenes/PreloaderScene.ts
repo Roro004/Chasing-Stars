@@ -1,21 +1,11 @@
-export default class MainScene extends Phaser.Scene {
-  plateforms!: Phaser.Physics.Arcade.StaticGroup
-  stars!: Phaser.Physics.Arcade.Group
-  player!: Phaser.Physics.Arcade.Sprite
-  cursors!: Phaser.Types.Input.Keyboard.CursorKeys
-
+export default class PreloaderScene extends Phaser.Scene {
   constructor() {
-    super({ key: 'MainScene' })
-
+    super({ key: 'PreloaderScene' })
   }
 
-  preload() {
-  
-  }
+  preload() {}
 
-  create() {
-    this.scene.start('MainScene')
-  }
+  create() {}
 
   update() {}
 }

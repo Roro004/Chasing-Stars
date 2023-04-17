@@ -3,9 +3,13 @@ export default class PreloaderScene extends Phaser.Scene {
     super({ key: 'PreloaderScene' })
   }
 
-  preload() {}
+  preload() {
+    this.load.image('pointy', './assets/img/pointy/pointy-idle.png')
+  }
 
-  create() {}
+  create() {
+    this.scene.start('MainScene')
+  }
 
   update() {}
 }

@@ -6,7 +6,7 @@ export default class MainScene extends Phaser.Scene {
   preload() {}
 
   create() {
-    this.scene.start('MainScene')
+    this.add.image(400, 300, 'pointy')
   }
 
   update() {}

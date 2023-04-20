@@ -1,4 +1,10 @@
+import PointySprite from '../objects/PointySprite'
+
 export default class MainScene extends Phaser.Scene {
+  pointy!: PointySprite
+
+  pointLocations = []
+
   constructor() {
     super({ key: 'MainScene' })
   }
@@ -6,27 +12,12 @@ export default class MainScene extends Phaser.Scene {
   preload() {}
 
   create() {
-    this.add.image(400, 300, 'pointy')
+    this.pointy = new PointySprite(this, 400, 300)
 
-    /*
-
-    pointy-[speed]-[turn].png
-
-    speed = 0 -> idle; 12 -> full speed
-    turn = 0 -> no turn; 12 -> full turn
-
-    pointy-0-0.png - 23
-    pointy-1-0.png - 24
-    ...
-    pointy-12-0.png - 35
-
-    pointy-0-1.png - 36
-    ...
-    pointy-0-12.png - 180
-
-    ...
-    pointy-12-12.png - 192
-    */
+    this.input.on('pointerdown', (pointer) => {
+      this.pointLocations.push(pointer)
+      console.log(this.pointLocations.length)
+    })
   }
 
   update() {}

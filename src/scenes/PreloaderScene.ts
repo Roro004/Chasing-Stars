@@ -9,13 +9,12 @@ export default class PreloaderScene extends Phaser.Scene {
     this.load.atlas(
       'pointy',
       'assets/img/pointy/pointy.png',
-      'assets/img/pointy/pointy.json'
+      'assets/img/pointy/pointy.json',
     )
 
     this.load.atlas(
-      'planet',
-      'assets/img/planet/planet.png',
-      'assets/img/planet/planet.json'
+      'assets/Textures/planets/planet.png',
+      'assets/Textures/planets/planet.json',
     )
   }
 

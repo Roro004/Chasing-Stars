@@ -1,7 +1,9 @@
+import Planet from '../objects/Planet'
 import PointySprite from '../objects/PointySprite'
 
 export default class MainScene extends Phaser.Scene {
   pointy!: PointySprite
+  planetA!: Planet
 
   pointLocations = []
 
@@ -14,10 +16,7 @@ export default class MainScene extends Phaser.Scene {
   create() {
     this.pointy = new PointySprite(this, 400, 300)
 
-    this.input.on('pointerdown', (pointer) => {
-      this.pointLocations.push(pointer)
-      console.log(this.pointLocations.length)
-    })
+    this.planetA = new Planet(this, 200, 500, 100, 100)
   }
 
   update() {}

@@ -1,4 +1,4 @@
-export default class Planet extends Phaser.Physics.Arcade.Sprite {
+export default class Flecks extends Phaser.Physics.Arcade.Sprite {
   constructor(
     scene: Phaser.Scene,
     x: number,
@@ -7,7 +7,7 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
     height: number,
     angle: number = 0,
   ) {
-    super(scene, x, y, 'planet')
+    super(scene, x, y, 'flecks')
 
     this.makeAnimations()
 
@@ -23,7 +23,7 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
 
     this.setBodySize(this.width, this.height).setOffset(0)
 
-    //this.anims.play('planet-rotate')
+    this.anims.play('flecks')
   }
 
   preUpdate(t: number, dt: number) {
@@ -33,15 +33,15 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
   // PRIVATE
 
   private makeAnimations() {
-    // this.anims.create({
-    //   key: 'planet-rotate',
-    //   frames: this.anims.generateFrameNames('planet', {
-    //     prefix: 'planets-',
-    //     start: 1,
-    //     end: 19,
-    //   }),
-    //   frameRate: 12,
-    //   repeat: -1,
-    // })
+    this.anims.create({
+      key: 'flecks',
+      frames: this.anims.generateFrameNames('flecks', {
+        prefix: 'flecks-',
+        start: 1,
+        end: 19,
+      }),
+      frameRate: 12,
+      repeat: -1,
+    })
   }
 }

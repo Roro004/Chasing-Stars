@@ -1,0 +1,881 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/Users/rohan/rohprog/528/Chasing_Stars/public/assets/textures/pointy",
+  "images": [
+    {
+      "name": "pointy-00-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-00-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-00-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-01-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-01-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-02-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-02-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-03-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-03-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-04-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-04-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-05-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-05-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-06-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-06-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-07-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-07-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-08-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-08-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-09-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-09-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-10-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-10-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-11-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-11-12.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-00.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-00.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-01.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-02.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-03.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-04.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-05.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-06.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-07.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-08.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-09.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-10.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-11.png",
+      "folder": ""
+    },
+    {
+      "name": "pointy-12-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/pointy/pointy-12-12.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "pointy",
+    "textureFormat": "png",
+    "removeFileExtension": true,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "Phaser 3",
+    "fileName": "pack-result",
+    "savePath": "/Users/rohan/rohprog/528/Chasing_Stars/public/assets/textures/pointy",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}

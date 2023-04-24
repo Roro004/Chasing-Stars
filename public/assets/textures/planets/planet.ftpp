@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/Users/rohan/rohprog/528/Chasing_Stars/public/assets/textures/planets",
+  "images": [
+    {
+      "name": "planets-1.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-1.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-10.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-11.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-12.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-13.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-13.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-14.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-14.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-15.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-15.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-16.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-16.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-17.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-17.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-18.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-18.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-19.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-19.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-2.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-2.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-3.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-3.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-4.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-4.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-5.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-5.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-6.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-6.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-7.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-7.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-8.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-8.png",
+      "folder": ""
+    },
+    {
+      "name": "planets-9.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/planets/planets-9.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "texture",
+    "textureFormat": "png",
+    "removeFileExtension": true,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "Phaser 3",
+    "fileName": "pack-result",
+    "savePath": "/Users/rohan/rohprog/528/Chasing_Stars/public/assets/textures/planets",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}

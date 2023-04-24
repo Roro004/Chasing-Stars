@@ -1,5 +1,7 @@
 import Planet from '../objects/Planet'
 import PointySprite from '../objects/PointySprite'
+import Flecks from '../objects/Flecks'
+import Star from '../objects/Star'
 
 export default class MainScene extends Phaser.Scene {
   pointy!: PointySprite

@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/Users/rohan/rohprog/528/Chasing_Stars/public/assets/textures/planets",
+  "images": [
+    {
+      "name": "fleck-01.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-01.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-02.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-02.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-03.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-03.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-04.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-04.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-05.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-05.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-06.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-06.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-07.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-07.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-08.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-08.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-09.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-09.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-10.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-10.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-11.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-11.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-12.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-12.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-13.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-13.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-14.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-14.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-15.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-15.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-16.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-16.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-17.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-17.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-18.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-18.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-19.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-19.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-20.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-20.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-21.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-21.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-22.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-22.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-23.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-23.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-24.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-24.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-25.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-25.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-26.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-26.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-27.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-27.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-28.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-28.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-29.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-29.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-30.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-30.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-31.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-31.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-32.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-32.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-33.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-33.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-34.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-34.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-35.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-35.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-36.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-36.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-37.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-37.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-38.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-38.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-39.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-39.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-40.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-40.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-41.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-41.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-42.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-42.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-43.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-43.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-44.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-44.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-45.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-45.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-46.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-46.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-47.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-47.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-48.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-48.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-49.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-49.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-50.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-50.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-51.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-51.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-52.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-52.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-53.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-53.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-54.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-54.png",
+      "folder": ""
+    },
+    {
+      "name": "fleck-55.png",
+      "path": "/Users/rohan/rohprog/528/Chasing_Stars/_design-files/flecks/fleck-55.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "fleck",
+    "textureFormat": "png",
+    "removeFileExtension": true,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "Phaser 3",
+    "fileName": "pack-result",
+    "savePath": "/Users/rohan/rohprog/528/Chasing_Stars/public/assets/textures/planets",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}

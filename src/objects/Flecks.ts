@@ -36,9 +36,10 @@ export default class Flecks extends Phaser.Physics.Arcade.Sprite {
     this.anims.create({
       key: 'flecks',
       frames: this.anims.generateFrameNames('flecks', {
-        prefix: 'flecks-',
+        prefix: 'fleck-',
         start: 1,
-        end: 19,
+        end: 55,
+        zeroPad: 2,
       }),
       frameRate: 12,
       repeat: -1,

@@ -24,9 +24,7 @@ export default class PreloaderScene extends Phaser.Scene {
       'assets/textures/flecks/flecks.json',
     )
 
-    // this.load.atlas(
-    //   'assets/textures/pointer/pointer.png',
-    // )
+    this.load.image('pointer', 'assets/textures/pointer/pointer.png')
 
     // this.load.atlas(
     //   'assets/textures/star/star-s.png',

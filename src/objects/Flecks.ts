@@ -1,19 +1,24 @@
+import { Math } from 'phaser'
+
 export default class Flecks extends Phaser.Physics.Arcade.Sprite {
   constructor(
     scene: Phaser.Scene,
-    x: number,
-    y: number,
-    width: number,
-    height: number,
-    angle: number = 0,
+    // x: number,
+    // y: number,
+    // width: number,
+    // height: number,
+    // angle: number = 0,
   ) {
-    super(scene, x, y, 'flecks')
+    super(scene, 0, 0, 'flecks')
+
+    this.x = Math.Between(0, 800)
+    this.y = Math.Between(0, 600)
 
     this.makeAnimations()
 
-    this.width = width
-    this.height = height
-    this.angle = angle
+    // this.width = width
+    // this.height = height
+    // this.angle = angle
 
     this.scale = 0.25
 
@@ -26,8 +31,10 @@ export default class Flecks extends Phaser.Physics.Arcade.Sprite {
     this.anims.play('flecks')
   }
 
-  preUpdate(t: number, dt: number) {
-    super.preUpdate(t, dt)
+  preUpdate(time: number, delta: number) {
+    super.preUpdate(time, delta)
+this.x = Math.Between(0, 800)
+this.y = Math.Between(0, 600)
   }
 
   // PRIVATE
@@ -46,3 +53,5 @@ export default class Flecks extends Phaser.Physics.Arcade.Sprite {
     })
   }
 }
+
+ game.time.events.loop(Phaser.Time.SECOND, updateCounter, this)

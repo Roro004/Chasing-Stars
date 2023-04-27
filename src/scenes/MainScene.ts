@@ -24,13 +24,11 @@ export default class MainScene extends Phaser.Scene {
     this.pointy = new PointySprite(this, 400, 300)
     const x = Math.Between(0, 800)
     const y = Math.Between(0, 600)
-    this.fleck = new Flecks(this, x, y, width, height)
+    this.fleck = new Flecks(this)
     // for (var i = 0;i<7;i++){
     //   var xx=Phaser.Math.Between(0,game.config.width);
     //   var yy=Phaser.Math.Between(0,game.congig.height)
     // }
-
-
 
     this.planetA = new Planet(this, 200, 500, 100, 100)
     this.planetB = new Planet(this, 400, 400, 200, 200)

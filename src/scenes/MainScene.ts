@@ -42,12 +42,18 @@ export default class MainScene extends Phaser.Scene {
   }
 
   update() {
+    if (this.pointy.body === null) {
+      return
+    }
+
     // // Calculate gravity as the normalised vector from the ship to the planet
     // this.pointy.body.gravity = new Phaser.Point(
     //   this.pointy.body.x - ship.body.x,
-    //   planet.body.y - ship.body.y,
+    //   planet.body.y - ship.body.y
     // )
     // // Normalize and multiply by actual strength of gravity desired
-    // this.pointy.body.gravity = this.pointy.body.gravity.normalize().multiply(300, 300)
+    // this.pointy.body.gravity = this.pointy.body.gravity
+    //   .normalize()
+    //   .multiply(300, 300)
   }
 }

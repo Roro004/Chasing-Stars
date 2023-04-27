@@ -15,6 +15,8 @@ export default class PointySprite extends Phaser.Physics.Arcade.Sprite {
 
     this.setBodySize(this.width, this.height).setOffset(0)
 
+    this.body.allowGravity = false
+
     this.anims.play('pointy-idle')
 
     // Create cursor keys

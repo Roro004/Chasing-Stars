@@ -12,11 +12,11 @@ export default class PreloaderScene extends Phaser.Scene {
       'assets/textures/pointy/pointy.json',
     )
 
-    // this.load.atlas(
-    //   'planet',
-    //   'assets/textures/planets/planet.png',
-    //   'assets/textures/planets/planet.json',
-    // )
+    this.load.atlas(
+      'planet',
+      'assets/textures/planets/planet.png',
+      'assets/textures/planets/planet.json',
+    )
 
     this.load.atlas(
       'flecks',
@@ -26,10 +26,9 @@ export default class PreloaderScene extends Phaser.Scene {
 
     this.load.image('pointer', 'assets/textures/pointer/pointer.png')
 
-    // this.load.atlas(
-    //   'assets/textures/star/star-s.png',
-    //   'assets/textures/star/star-f.png',
-    // )
+    this.load.image('pointer', 'assets/textures/star/star-s.png')
+
+    this.load.image('pointer', 'assets/textures/star/star-f.png')
   }
 
   create() {

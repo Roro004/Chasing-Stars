@@ -1,3 +1,4 @@
+import { Math } from "phaser"
 export default class Planet extends Phaser.Physics.Arcade.Sprite {
   constructor(
     scene: Phaser.Scene,
@@ -6,6 +7,7 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
     width: number,
     height: number,
     angle: number = 0,
+
   ) {
     super(scene, x, y, 'planet')
 
@@ -15,6 +17,8 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
     this.height = height
     this.angle = angle
 
+
+
     this.scale = 0.25
 
     // Add to scene
@@ -23,7 +27,7 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
 
     this.setBodySize(this.width, this.height).setOffset(0)
 
-    //this.anims.play('planet-rotate')
+  this.anims.play('planet-rotate')
   }
 
   preUpdate(t: number, dt: number) {
@@ -33,15 +37,15 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
   // PRIVATE
 
   private makeAnimations() {
-    // this.anims.create({
-    //   key: 'planet-rotate',
-    //   frames: this.anims.generateFrameNames('planet', {
-    //     prefix: 'planets-',
-    //     start: 1,
-    //     end: 19,
-    //   }),
-    //   frameRate: 12,
-    //   repeat: -1,
-    // })
+    this.anims.create({
+      key: 'planet-rotate',
+      frames: this.anims.generateFrameNames('planet', {
+        prefix: 'planets-',
+        start: Math.Between(1, 8),
+        end: Math.Between(9, 19),
+      }),
+      frameRate: Math.Between(5, 12),
+      repeat: -1,
+    })
   }
 }

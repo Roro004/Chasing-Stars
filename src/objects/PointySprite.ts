@@ -65,6 +65,9 @@ export default class PointySprite extends Phaser.Physics.Arcade.Sprite {
     pointy-12-12.png - 192
     */
 
+    // Create a variable for speed
+    const speed = 12
+
     this.anims.create({
       key: 'pointy-idle',
       frames: [{ key: 'pointy', frame: 'pointy-00-00' }],

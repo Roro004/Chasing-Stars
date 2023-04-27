@@ -30,10 +30,26 @@ export default class MainScene extends Phaser.Scene {
     //   var yy=Phaser.Math.Between(0,game.congig.height)
     // }
 
-    this.planetA = new Planet(this, 200, 500, 100, 100)
-    this.pointer = new Pointer(this, 200, 500, 100, 100)
 
+
+    this.planetA = new Planet(this, 200, 500, 100, 100)
+    this.planetB = new Planet(this, 400, 400, 200, 200)
+    this.planetC = new Planet(this, 500, 500, 200, 200)
+    this.pointer = new Pointer(this, 200, 500, 100, 100)
+    // this.star-s = new Star(this, 300, 500, 100, 100)
+
+    //  pointy.body.allowGravity = false
+    //  // Set an initial motion
+    //  pointy.body.velocity.x = 100
   }
 
-  update() {}
+  update() {
+    // // Calculate gravity as the normalised vector from the ship to the planet
+    // this.pointy.body.gravity = new Phaser.Point(
+    //   this.pointy.body.x - ship.body.x,
+    //   planet.body.y - ship.body.y,
+    // )
+    // // Normalize and multiply by actual strength of gravity desired
+    // this.pointy.body.gravity = this.pointy.body.gravity.normalize().multiply(300, 300)
+  }
 }

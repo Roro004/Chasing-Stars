@@ -7,7 +7,7 @@ export default class Star extends Phaser.Physics.Arcade.Sprite {
     height: number,
     angle: number = 0,
   ) {
-    super(scene, x, y, 'star')
+    super(scene, x, y, 'star-s')
 
     this.makeAnimations()
 
@@ -30,58 +30,58 @@ export default class Star extends Phaser.Physics.Arcade.Sprite {
     super.preUpdate(t, dt)
   }
 
-  // PRIVATE
+//   // PRIVATE
 
-  // the shake behavior
+//   // the shake behavior
   private makeAnimations() {
-    this.anims.create({
-      key: 'shake',
-      frames: this.anims.generateFrameNames('planet', {
-        prefix: 'planets-',
-        start: 1,
-        end: 19,
-      }),
-      frameRate: 12,
-      repeat: -1,
-    })
+//     this.anims.create({
+//       key: 'shake',
+//       frames: this.anims.generateFrameNames('planet', {
+//         prefix: 'planets-',
+//         start: 1,
+//         end: 19,
+//       }),
+//       frameRate: 12,
+//       repeat: -1,
+//     })
 
-    for (let i = 0; i < Math.random(30, 60); i++) {
-      this.star.angle + 1
+//     // for (let i = 0; i < Math.random(30, 60); i++) {
+//     //   this.star.angle + 1
 
-    while i < Math.random(30,60); i++
+//     // while i < Math.random(30,60); i++
 
 
-    }
-  }
+//     }
+//   }
 
-  private makeAnimations() {
-    this.anims.create({
-      key: 'wait',
-      frames: this.anims.generateFrameNames('planet', {
-        prefix: 'planets-',
-        start: 1,
-        end: 19,
-      }),
-      frameRate: 12,
-      repeat: -1,
-    })
+//   private makeAnimations() {
+//     this.anims.create({
+//       key: 'wait',
+//       frames: this.anims.generateFrameNames('planet', {
+//         prefix: 'planets-',
+//         start: 1,
+//         end: 19,
+//       }),
+//       frameRate: 12,
+//       repeat: -1,
+//     })
 
-        for (let i = 0; i < Math.random(60, 180); i+1) {
-          this.star.angle + 2
-        }
-  }
+//   //       for (let i = 0; i < Math.random(60, 180); i+1) {
+//   //         this.star.angle + 2
+//   //       }
+//   // }
 
-  private makeAnimations() {
-    this.anims.create({
-      key: 'celebrate',
-      frames: this.anims.generateFrameNames('planet', {
-        prefix: 'star-s',
-        start: 1,
-        end: 19,
-      }),
-      frameRate: 12,
-      repeat: -1,
-    })
+//   private makeAnimations() {
+//     this.anims.create({
+//       key: 'celebrate',
+//       frames: this.anims.generateFrameNames('planet', {
+//         prefix: 'star-s',
+//         start: 1,
+//         end: 19,
+//       }),
+//       frameRate: 12,
+//       repeat: -1,
+//     })
 
-  }
-}
+   }
+ }

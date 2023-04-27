@@ -1,4 +1,4 @@
-import { Math } from "phaser"
+import { Math } from 'phaser'
 export default class Planet extends Phaser.Physics.Arcade.Sprite {
   constructor(
     scene: Phaser.Scene,
@@ -6,8 +6,7 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
     y: number,
     width: number,
     height: number,
-    angle: number = 0,
-
+    angle: number = 0
   ) {
     super(scene, x, y, 'planet')
 
@@ -17,8 +16,6 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
     this.height = height
     this.angle = angle
 
-
-
     this.scale = 0.25
 
     // Add to scene
@@ -27,7 +24,7 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
 
     this.setBodySize(this.width, this.height).setOffset(0)
 
-  this.anims.play('planet-rotate')
+    this.anims.play('planet-rotate')
   }
 
   preUpdate(t: number, dt: number) {

@@ -34,7 +34,7 @@ export default class MainScene extends Phaser.Scene {
     this.planetB = new Planet(this, 400, 400, 200, 200)
     this.planetC = new Planet(this, 500, 500, 200, 200)
     this.pointer = new Pointer(this, 200, 500, 100, 100)
-    // this.star-s = new Star(this, 300, 500, 100, 100)
+    // this.star = new Star(this, 500, 500, 100, 100)
 
     //  pointy.body.allowGravity = false
     //  // Set an initial motion

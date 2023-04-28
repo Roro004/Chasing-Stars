@@ -66,7 +66,7 @@ export default class PointySprite extends Phaser.Physics.Arcade.Sprite {
     ...
     pointy-12-12.png - 192
     */
-
+    this.scale = 0.25
     // Create a variable for speed
     const speed = 12
 

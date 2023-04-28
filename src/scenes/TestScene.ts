@@ -1,5 +1,3 @@
-import { Math } from 'phaser'
-
 export default class TestScene extends Phaser.Scene {
   planet!: Phaser.GameObjects.Sprite
   ship!: Phaser.GameObjects.Sprite

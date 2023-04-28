@@ -14,9 +14,10 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
 
     this.width = width
     this.height = height
-    this.angle = angle
+    this.angle = Phaser.Math.Between(0, 360)
 
     this.scale = 0.25
+
 
     // Add to scene
     scene.add.existing(this)

@@ -1,7 +1,9 @@
 import { Math } from 'phaser'
 
 export default class Flecks extends Phaser.Physics.Arcade.Sprite {
-  moveTimer = 1000 // 1 second
+  moveTimer = 100 // 1 second
+
+
 
   constructor(
     scene: Phaser.Scene

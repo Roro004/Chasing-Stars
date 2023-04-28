@@ -19,8 +19,8 @@ const config: Phaser.Types.Core.GameConfig = {
       debug: true,
     },
   },
-  // scene: [PreloaderScene, MainScene],
-  scene: [TestScene],
+  scene: [PreloaderScene, MainScene],
+  // scene: [TestScene],
 }
 
 const game = new Phaser.Game(config)

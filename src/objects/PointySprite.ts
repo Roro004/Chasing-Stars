@@ -15,7 +15,7 @@ export default class PointySprite extends Phaser.Physics.Arcade.Sprite {
 
     this.setBodySize(this.width, this.height).setOffset(0)
 
-    this.body.allowGravity = false
+    // this.body.allowGravity = false
 
     this.anims.play('pointy-idle')
 
@@ -94,7 +94,7 @@ export default class PointySprite extends Phaser.Physics.Arcade.Sprite {
     }
 
     this.anims.play('pointy-idle', true)
-    this.setVelocity(0)
+    // this.setVelocity(0)
   }
 
   private moveRight() {
@@ -105,7 +105,7 @@ export default class PointySprite extends Phaser.Physics.Arcade.Sprite {
     this.anims.play('pointy-right', true)
     this.scaleX = 1
     this.body.offset.x = 0
-    this.setVelocity(0, 0)
+    // this.setVelocity(0, 0)
   }
 
   private moveLeft() {
@@ -116,6 +116,6 @@ export default class PointySprite extends Phaser.Physics.Arcade.Sprite {
     this.anims.play('pointy-right', true)
     this.scaleX = -1
     this.body.offset.x = this.width
-    this.setVelocity(-0, 0)
+    // this.setVelocity(-0, 0)
   }
 }

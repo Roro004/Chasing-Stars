@@ -22,7 +22,8 @@ export default class Planet extends Phaser.Physics.Arcade.Sprite {
     scene.add.existing(this)
     scene.physics.add.existing(this)
 
-    this.setBodySize(this.width, this.height).setOffset(0)
+    // this.setBodySize(this.width, this.height).setOffset(0)
+    // this.refreshBody()
 
     this.anims.play('planet-rotate')
   }

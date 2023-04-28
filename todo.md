@@ -1,9 +1,13 @@
 makeAnimations
 
-1.  xx
+1. [x] Radial gravity basis for planets and pointy in MainScene
+2. [ ] implement chasing behavior
+3. [ ] implement point generaton (add,move,remove)
+4. [ ] create pause and play and game over state states
+5. [ ] create a game boundry and boundry condtiions
 
-2.  Radial gravity basis for planets and pointy in MainScene
+6. xx
 
-3.  Stars behavior loops
+7. Stars behavior loops
 
-4.  Make pointy sprite animations for sequences left, right and speed. Do so either by either running a variable through the sequence when the other one is taken through the frame set, actually all have to be variables alternative vector array somehow
+8. Make pointy sprite animations for sequences left, right and speed. Do so either by either running a variable through the sequence when the other one is taken through the frame set, actually all have to be variables alternative vector array somehow

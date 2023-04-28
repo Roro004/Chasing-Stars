@@ -1,10 +1,7 @@
 import { Math } from 'phaser'
 
 export default class Flecks extends Phaser.Physics.Arcade.Sprite {
-  private updateLocationEvery = 100
-
-  // Don't change this.
-  private updateCounter = 0
+  moveTimer = 1000 // 1 second
 
   constructor(
     scene: Phaser.Scene
@@ -17,8 +14,6 @@ export default class Flecks extends Phaser.Physics.Arcade.Sprite {
     super(scene, 0, 0, 'flecks')
 
     this.makeAnimations()
-
-    this.updateLocation2()
 
     // this.width = width
     // this.height = height
@@ -33,27 +28,23 @@ export default class Flecks extends Phaser.Physics.Arcade.Sprite {
     this.setBodySize(this.width, this.height).setOffset(0)
 
     this.anims.play('flecks')
+
+    this.scene.time.addEvent({
+      delay: this.moveTimer,
+      loop: true,
+      callback: () => {
+        this.updateLocation()
+      },
+    })
   }
 
   preUpdate(time: number, delta: number) {
     super.preUpdate(time, delta)
-
-    this.checkForUpdateLocation()
   }
 
   // PRIVATE
 
-  private checkForUpdateLocation() {
-    this.updateCounter += 1
-
-    if (this.updateCounter > this.updateLocationEvery) {
-      this.updateCounter = 0
-
-      this.updateLocation2()
-    }
-  }
-
-  private updateLocation2() {
+  private updateLocation() {
     this.x = Math.Between(0, this.scene.game.config.width as number)
     this.y = Math.Between(0, this.scene.game.config.height as number)
   }

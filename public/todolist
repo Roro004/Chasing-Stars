@@ -9,3 +9,11 @@ makeAnimations
 
 
 5) Make pointy sprite animations for sequences left, right and speed. Do so either by either running a variable through the sequence when the other one is taken through the frame set, actually all have to be variables alternative vector array somehow
+
+
+Weekend
+
+1) implement chasing behavior
+2) implement point generaton (add,move,remove)
+2) create pause and play and game over state states
+3) create a game boundry and boundry condtiions

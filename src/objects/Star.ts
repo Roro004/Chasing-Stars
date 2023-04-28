@@ -80,17 +80,23 @@ export default class Star extends Phaser.Physics.Arcade.Sprite {
 //   //       }
 //   // }
 
-//   private makeAnimations() {
-//     this.anims.create({
-//       key: 'celebrate',
+
+  private makeAnimations() {
+     this.anims.create({
+      key: 'celebrate',
+     // frames :this.anims.create('star-s')
+      //Phaser.Actions.Angle(this.star-s, 1)}
+//this.star-s.angle++
+
+
 //       frames: this.anims.generateFrameNames('planet', {
-//         prefix: 'star-s',
+//         prefix: 'planets-',
 //         start: 1,
 //         end: 19,
 //       }),
 //       frameRate: 12,
 //       repeat: -1,
-//     })
-
+   })
+  }
 
 

@@ -3,6 +3,7 @@ import PointySprite from '../objects/PointySprite'
 import Flecks from '../objects/Flecks'
 import Star from '../objects/Star'
 import Pointer from '../objects/Pointer'
+import Target from '../objects/Target'
 
 // let width = 800
 // let height = 600
@@ -30,7 +31,8 @@ export default class MainScene extends Phaser.Scene {
     // const y = Phaser.Math.Between(0, 600)
     for (let i = 0; i < 30; i++) {
       this.fleck = new Flecks(this)
-      this.fleck.fleckid++
+      fleckid++
+      console.log(fleckid)
     }
 
     // for (var i = 0;i<7;i++){
@@ -41,7 +43,6 @@ export default class MainScene extends Phaser.Scene {
     this.planetA = new Planet(this, 200, 500, 100, 100)
     this.planetB = new Planet(this, 400, 400, 200, 200)
     this.planetC = new Planet(this, 500, 500, 200, 200)
-
 
     // this.star = new Star(this, 500, 500, 100, 100)
 
@@ -55,8 +56,23 @@ export default class MainScene extends Phaser.Scene {
   }
 
   update() {
-    // console.log(this.pointy, this.planetA)
+    //console.log(this.pointy, this.planetA)
     this.physics.accelerateToObject(this.pointy, this.planetA, 10)
-      // this.pointer = new Pointer(this, this.pointy.x, this.pointy.y, 100, 100)
+    // this.physics.accelerateToObject(this.pointy, cursor., 10)
+
+    this.pointer = new Pointer(
+      this,
+      this.pointy.x + 70,
+      this.pointy.y,
+      100,
+      100,
+
+          this.pointer = new Target(
+      this,
+      200,
+      200,
+      100,
+      100,
+    )
   }
 }

@@ -8,14 +8,14 @@ import Target from '../objects/Target'
 
 // let width = 800
 // let height = 600
-
+  let targetLocations = []
 let fleckid = 0
 
 export default class MainScene extends Phaser.Scene {
   pointy!: PointySprite
   planetA!: Planet
 
-  targetLocations = []
+
 
   constructor() {
     super({ key: 'MainScene' })
@@ -42,15 +42,15 @@ export default class MainScene extends Phaser.Scene {
 
 
 
-    //     this.input.on('pointerdown', function (Pointer)
-    //     {
+        this.input.on('pointerdown', function (Pointer)
+      {
 
-    //         console.log('down');
+          this.add.image(Pointer.x, Pointer.y, 'target');
+          targetLocations.push(Pointer.x, Pointer.y)
+          console.log(targetLocations)
 
-    //         this.add.image(pointer.x, pointer.y, 'target');
+       }, this);
 
-    //     }, this);
-    // }
       // record that input in the target locations
 
 

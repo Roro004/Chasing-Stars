@@ -24,11 +24,13 @@ export default class PreloaderScene extends Phaser.Scene {
       'assets/textures/flecks/flecks.json',
     )
 
-    this.load.image('pointer', 'assets/textures/pointer/pointer.png')
+    this.load.image('pointerr', 'assets/textures/pointerr/pointerr.png')
 
-    this.load.image('pointer', 'assets/textures/star/star-s.png')
+    this.load.image('target', 'assets/textures/target/target.png')
 
-    this.load.image('pointer', 'assets/textures/star/star-f.png')
+    this.load.image('star-s', 'assets/textures/star/star-s.png')
+
+    this.load.image('star-f', 'assets/textures/star/star-f.png')
   }
 
   create() {

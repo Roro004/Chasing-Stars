@@ -23,7 +23,7 @@ export default class Target extends Phaser.Physics.Arcade.Sprite {
 
     this.setBodySize(this.width, this.height).setOffset(0)
 
-    //this.anims.play('pointer')
+    //this.anims.play('target')
   }
 
   preUpdate(t: number, dt: number) {

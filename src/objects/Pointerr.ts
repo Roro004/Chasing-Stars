@@ -1,13 +1,14 @@
-export default class Pointer extends Phaser.Physics.Arcade.Sprite {
+export default class Pointerr extends Phaser.Physics.Arcade.Sprite {
   constructor(
     scene: Phaser.Scene,
     x: number,
     y: number,
     width: number,
+
     height: number,
     angle: number = 0,
   ) {
-    super(scene, x, y, 'pointer')
+    super(scene, x, y, 'pointerr')
 
     this.makeAnimations()
 
@@ -16,6 +17,7 @@ export default class Pointer extends Phaser.Physics.Arcade.Sprite {
     this.angle = angle
 
     this.scale = 0.25
+
 
     // Add to scene
     scene.add.existing(this)

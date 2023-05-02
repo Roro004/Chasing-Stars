@@ -4,6 +4,9 @@ import Flecks from '../objects/Flecks'
 import Star from '../objects/Star'
 import Pointerr from '../objects/Pointerr'
 import Target from '../objects/Target'
+import Pause from '../objects/Pause'
+
+
 
 // let width = 800
 // let height = 600
@@ -60,6 +63,8 @@ export default class MainScene extends Phaser.Scene {
       this,
     )
         console.log(targetLocations)
+
+
 //?????
     // this.input.on('pointerdown', function(pointer, target) {
     //   target.destroy()
@@ -87,6 +92,7 @@ export default class MainScene extends Phaser.Scene {
     this.planetB = new Planet(this, 400, 400, 200, 200)
     this.planetC = new Planet(this, 500, 500, 200, 200)
 
+this.pauseA = new Pause(this, 750, 25, 200, 200)
 
    //  this.target = new Target(this, this.currentx, currenty, 55, 55)
 
@@ -114,6 +120,10 @@ export default class MainScene extends Phaser.Scene {
       100,
       100,
     )
+
+    // if ('spacebar'.isDown) {
+    //   weapon.fire()
+    // }
  // pointerr.destroy()
   }
 }

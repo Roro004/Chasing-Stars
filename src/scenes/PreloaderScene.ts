@@ -28,6 +28,9 @@ export default class PreloaderScene extends Phaser.Scene {
 
     this.load.image('target', 'assets/textures/target/target.png')
 
+
+    this.load.image('pause', 'assets/textures/pause/pause.png')
+
     this.load.image('star-s', 'assets/textures/star/star-s.png')
 
     this.load.image('star-f', 'assets/textures/star/star-f.png')

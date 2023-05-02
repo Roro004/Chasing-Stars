@@ -5,17 +5,16 @@ import Star from '../objects/Star'
 import Pointerr from '../objects/Pointerr'
 import Target from '../objects/Target'
 
-
 // let width = 800
 // let height = 600
-  let targetLocations = []
+let targetLocations = [];
+let current = [];
+let next = [];
 let fleckid = 0
 
 export default class MainScene extends Phaser.Scene {
   pointy!: PointySprite
   planetA!: Planet
-
-
 
   constructor() {
     super({ key: 'MainScene' })
@@ -28,49 +27,54 @@ export default class MainScene extends Phaser.Scene {
     this.pointy.body.velocity.x = 50
     // this.pointy.setVelocityX(1000)
 
-
     for (let i = 0; i < 30; i++) {
       this.fleck = new Flecks(this)
       fleckid++
       console.log(fleckid)
     }
 
-      // const target = this.add.image(0, 0, 'target').setVisible(false)
+    // const target = this.add.image(0, 0, 'target').setVisible(false)
 
+    //take a input when the mouse is pressed
 
-      //take a input when the mouse is pressed
+    this.input.on(
+      'pointerdown',
+      function (Pointer) {
+        this.add.image(Pointer.x, Pointer.y, 'target')
 
+        // record that input in the target locations
+        targetLocations.push(Pointer.x, Pointer.y)
 
+        console.log(targetLocations)
+      },
+      this,
+    )
 
-        this.input.on('pointerdown', function (Pointer)
-      {
+    this.target = new Target(
+      this,
+      targetLocations[0],
+      targetLocations[1],
+      100,
+      100,
+    )
+    //let targets
 
-          this.add.image(Pointer.x, Pointer.y, 'target');
-          targetLocations.push(Pointer.x, Pointer.y)
-          console.log(targetLocations)
+    // build current and next points for (x,y)
+    // let both take from targetLocations[] to direct pointy
 
-       }, this);
+    // make pointy go to locations one after the other
 
-      // record that input in the target locations
+    //  this.input.on('pointerdown', (pointer) =>
+    //   {
+    //       target.copyPosition(pointer).setVisible(true);
 
-
-      // make pointy go to locations one after the other
-
-
-
-
-
-      //  this.input.on('pointerdown', (pointer) =>
-      //   {
-      //       target.copyPosition(pointer).setVisible(true);
-
-      //       target.body.stop();
+    //       target.body.stop();
 
     this.planetA = new Planet(this, 200, 500, 100, 100)
     this.planetB = new Planet(this, 400, 400, 200, 200)
     this.planetC = new Planet(this, 500, 500, 200, 200)
 
-    // this.targetA = new Target(this, this.targetLocations.x, this.targetLocations.y, 55, 55)
+    //  this.targetA = new Target(this, this.targetLocations[0], this.targetLocations[1], 55, 55)
 
     // this.star = new Star(this, 500, 500, 100, 100)
 
@@ -85,8 +89,8 @@ export default class MainScene extends Phaser.Scene {
 
   update() {
     //console.log(this.pointy, this.planetA)
-    this.physics.accelerateToObject(this.pointy, this.planetA, 100)
-      // this.physics.accelerateToObject(this.pointy, this.planetA, 10)
+    this.physics.accelerateToObject(this.pointy, this.target, 100)
+    // this.physics.accelerateToObject(this.pointy, this.planetA, 10)
     // this.physics.accelerateToObject(this.pointy, cursor., 10)
 
     this.pointerr = new Pointerr(

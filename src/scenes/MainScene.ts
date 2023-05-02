@@ -36,33 +36,46 @@ export default class MainScene extends Phaser.Scene {
     // const target = this.add.image(0, 0, 'target').setVisible(false)
 
     //take a input when the mouse is pressed
+    //const target = this.add.image(0, 0, 'target')
 
-    this.input.on(
-      'pointerdown',
-      function (Pointer) {
-        this.add.image(Pointer.x, Pointer.y, 'target')
 
-        // record that input in the target locations
-        targetLocations.push(Pointer.x, Pointer.y)
 
-        console.log(targetLocations)
-      },
-      this,
-    )
-
-    this.target = new Target(
-      this,
-      targetLocations[0],
-      targetLocations[1],
-      100,
-      100,
-    )
-    //let targets
 
     // build current and next points for (x,y)
     // let both take from targetLocations[] to direct pointy
 
     // make pointy go to locations one after the other
+    this.input.on(
+      'pointerdown',
+      function (Pointer) {
+        this.target = new Target(this, Pointer.x, Pointer.y, 55, 55)
+
+        // record that input in the target locations
+        targetLocations.push(Pointer.x, Pointer.y)
+        let currentx = targetLocations.at(0)
+        let currenty = targetLocations.at(1)
+
+
+      },
+      this,
+    )
+        console.log(targetLocations)
+//?????
+    // this.input.on('pointerdown', function(pointer, target) {
+    //   target.destroy()
+    // })
+    //  this.target.on(
+    //    'pointerdown',
+    //    function (Pointer) {
+    //     target.destroy()
+
+    // record that input in the target locations
+    //  targetLocations.push(Pointer.x, Pointer.y)
+
+    //  console.log(targetLocations)
+    //    },
+    //    this,
+    //  )
 
     //  this.input.on('pointerdown', (pointer) =>
     //   {
@@ -74,7 +87,8 @@ export default class MainScene extends Phaser.Scene {
     this.planetB = new Planet(this, 400, 400, 200, 200)
     this.planetC = new Planet(this, 500, 500, 200, 200)
 
-    //  this.targetA = new Target(this, this.targetLocations[0], this.targetLocations[1], 55, 55)
+
+   //  this.target = new Target(this, this.currentx, currenty, 55, 55)
 
     // this.star = new Star(this, 500, 500, 100, 100)
 
@@ -89,7 +103,7 @@ export default class MainScene extends Phaser.Scene {
 
   update() {
     //console.log(this.pointy, this.planetA)
-    this.physics.accelerateToObject(this.pointy, this.target, 100)
+    this.physics.accelerateToObject(this.pointy, this.planetA, 100)
     // this.physics.accelerateToObject(this.pointy, this.planetA, 10)
     // this.physics.accelerateToObject(this.pointy, cursor., 10)
 
@@ -100,5 +114,6 @@ export default class MainScene extends Phaser.Scene {
       100,
       100,
     )
+ // pointerr.destroy()
   }
 }

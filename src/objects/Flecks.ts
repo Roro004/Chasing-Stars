@@ -3,8 +3,6 @@ import { Math } from 'phaser'
 export default class Flecks extends Phaser.Physics.Arcade.Sprite {
   moveTimer = 100 // 1 second
 
-
-
   constructor(
     scene: Phaser.Scene
     // x: number,
@@ -49,6 +47,7 @@ export default class Flecks extends Phaser.Physics.Arcade.Sprite {
   private updateLocation() {
     this.x = Math.Between(0, this.scene.game.config.width as number)
     this.y = Math.Between(0, this.scene.game.config.height as number)
+    // this.frame = Phaser.Math.Between(1, 55)
   }
 
   private makeAnimations() {
@@ -56,8 +55,8 @@ export default class Flecks extends Phaser.Physics.Arcade.Sprite {
       key: 'flecks',
       frames: this.anims.generateFrameNames('flecks', {
         prefix: 'fleck-',
-        start: 1,
-        end: 55,
+        start: Phaser.Math.Between(1, 25),
+        end: Phaser.Math.Between(26, 55),
         zeroPad: 2,
       }),
       frameRate: 5,

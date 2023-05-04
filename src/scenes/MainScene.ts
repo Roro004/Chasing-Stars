@@ -35,11 +35,11 @@ export default class MainScene extends Phaser.Scene {
     this.pointy.body.velocity.x = 50
 
     // // Create Flecks
-    // this.flecksGroup = this.physics.add.group({
-    //   classType: Flecks,
-    //   key: 'flecks',
-    //   repeat: 10,
-    // })
+    this.flecksGroup = this.physics.add.group({
+      classType: Flecks,
+      key: 'flecks',
+      repeat: 10,
+    })
 
     // this.pointy.setVelocityX(1000)
 
@@ -86,6 +86,16 @@ export default class MainScene extends Phaser.Scene {
       this
     )
 
+      // this.physics.add.overlap(
+      //   this.pointy,
+      //   this.planetA,
+      // this.scene.pause()
+      //   null,
+      //   this,
+      // )
+
+
+
     this.input.on('pointerdown', (pointer: Phaser.Input.Pointer) => {
       // Note: 'new' is required
       const position = new Phaser.Math.Vector2(pointer.position)
@@ -95,8 +105,19 @@ export default class MainScene extends Phaser.Scene {
     })
 
     //?????
+  const sprite = this.add.sprite( 'target').setInteractive()
+
+  sprite.on('pointerdown', function (pointer) {
+    sprite.destroy()
+  })
+
+  // const sprite1 = this.add.image( PauseA.x,P'pause').setInteractive()
+
+  // sprite1.on('pointerdown', function (pointer) {
+  //   sprite1.destroy()
+  // })
     // this.input.on('pointerdown', function(pointer, target) {
-    //   target.destroy()
+    //
     // })
     //  this.target.on(
     //    'pointerdown',
@@ -137,6 +158,8 @@ export default class MainScene extends Phaser.Scene {
     //     this.scene.pause()
     //   },
     // })
+
+
   }
   pointyReachedTarget(_pointy: PointySprite, target: Target) {
     target.destroy()

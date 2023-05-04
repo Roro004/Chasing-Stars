@@ -94,6 +94,9 @@ export default class MainScene extends Phaser.Scene {
 
 this.pauseA = new Pause(this, 750, 25, 200, 200)
 
+this.input.on('pausedown', function (pointer,pause) {
+  this.scene.pause()
+})
    //  this.target = new Target(this, this.currentx, currenty, 55, 55)
 
     // this.star = new Star(this, 500, 500, 100, 100)

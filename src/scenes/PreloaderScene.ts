@@ -4,7 +4,6 @@ export default class PreloaderScene extends Phaser.Scene {
   }
 
   preload() {
-    // this.load.image('pointy', './assets/img/pointy/pointy-idle.png')
 
     this.load.atlas(
       'pointy',

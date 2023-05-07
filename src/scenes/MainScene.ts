@@ -28,56 +28,27 @@ export default class MainScene extends Phaser.Scene {
     // Create Pointy
     this.pointy = new PointySprite(this, 400, 300)
 
+    // Make sure he exists
     if (this.pointy.body === null) {
       throw new Error("Pointy body doesn't exist.")
     }
 
+    // Give him velocity
     this.pointy.body.velocity.x = 50
 
-    // // Create Flecks
+   // Create Flecks
     this.flecksGroup = this.physics.add.group({
       classType: Flecks,
       key: 'flecks',
       repeat: 10,
     })
 
-    // this.pointy.setVelocityX(1000)
-
-    // for (let i = 0; i < 30; i++) {
-    //   this.fleck = new Flecks(this)
-    //   fleckid++
-    //   console.log(fleckid)
-    // }
-
-    // const target = this.add.image(0, 0, 'target').setVisible(false)
-
-    //take a input when the mouse is pressed
-    //const target = this.add.image(0, 0, 'target')
-
-    // build current and next points for (x,y)
-    // let both take from targetLocations[] to direct pointy
-
-    // make pointy go to locations one after the other
-    // this.input.on(
-    //   'pointerdown',
-    //   (Pointer) => {
-    //     // this.target = new Target(this, Pointer.x, Pointer.y, 55, 55)
-
-    //     console.log(Pointer)
-
-    //     // record that input in the target locations
-    //     this.targetLocations.push(Pointer.position)
-    //     // let currentx = targetLocations.at(0)
-    //     // let currenty = targetLocations.at(1)
-    //     console.log(targetLocations)
-    //   },
-    //   this
-    // )
-
+// Add targets
     this.targets = this.physics.add.group({
       classType: Target,
     })
 
+    // Clear the target when Pointy touches it
     this.physics.add.overlap(
       this.pointy,
       this.targets,
@@ -86,16 +57,10 @@ export default class MainScene extends Phaser.Scene {
       this
     )
 
-      // this.physics.add.overlap(
-      //   this.pointy,
-      //   this.planetA,
-      // this.scene.pause()
-      //   null,
-      //   this,
-      // )
 
 
 
+// Create a new target when mouse is pressed
     this.input.on('pointerdown', (pointer: Phaser.Input.Pointer) => {
       // Note: 'new' is required
       const position = new Phaser.Math.Vector2(pointer.position)
@@ -104,39 +69,26 @@ export default class MainScene extends Phaser.Scene {
       this.targets.get(position.x, position.y)
     })
 
-    //?????
-  const sprite = this.add.sprite( 'target').setInteractive()
 
-  sprite.on('pointerdown', function (pointer) {
-    sprite.destroy()
-  })
+  // const sprite = this.add.sprite( 'target').setInteractive()
 
-  // const sprite1 = this.add.image( PauseA.x,P'pause').setInteractive()
+  // sprite.on('pointerdown', function (pointer) {
+  //   sprite.destroy()
+  // })
+
+  //  const sprite1 = this.add.image( PauseA.x,P'pause').setInteractive()
 
   // sprite1.on('pointerdown', function (pointer) {
   //   sprite1.destroy()
   // })
-    // this.input.on('pointerdown', function(pointer, target) {
-    //
-    // })
-    //  this.target.on(
-    //    'pointerdown',
-    //    function (Pointer) {
-    //     target.destroy()
+  //   this.input.on('pointerdown', function(pointer, target) {
 
-    // record that input in the target locations
-    //  targetLocations.push(Pointer.x, Pointer.y)
+  //   })
+  //    this.target.on(
+  //      'pointerdown',
+  //      function (Pointer) {
+  //       target.destroy()
 
-    //  console.log(targetLocations)
-    //    },
-    //    this,
-    //  )
-
-    //  this.input.on('pointerdown', (pointer) =>
-    //   {
-    //       target.copyPosition(pointer).setVisible(true);
-
-    //       target.body.stop();
 
     this.planetA = new Planet(this, 200, 500, 100, 100)
     this.planetB = new Planet(this, 400, 400, 200, 200)
@@ -151,13 +103,7 @@ export default class MainScene extends Phaser.Scene {
 
     // this.star = new Star(this, 500, 500, 100, 100)
 
-    // // EXAMPLE ONLY
-    // this.time.addEvent({
-    //   delay: 1000,
-    //   callback: () => {
-    //     this.scene.pause()
-    //   },
-    // })
+
 
 
   }
@@ -166,17 +112,12 @@ export default class MainScene extends Phaser.Scene {
   }
 
   update() {
-    //console.log(this.pointy, this.planetA)
+
     this.physics.accelerateToObject(this.pointy, this.planetA, 100)
-    // this.physics.accelerateToObject(this.pointy, this.planetA, 10)
-    // this.physics.accelerateToObject(this.pointy, cursor., 10)
 
     if (this.targets.countActive() > 0) {
       const firstTarget: Target = this.targets.getFirstAlive()
 
-      //
-      // this.pointy.setVelocityX(10)
-      // this.physics.accelerateToObject(this.pointy, firstTarget, 100)
 
       const target = new Phaser.Math.Vector2(firstTarget.x, firstTarget.y)
 
@@ -185,17 +126,13 @@ export default class MainScene extends Phaser.Scene {
       this.physics.moveToObject(this.pointy, target, 400)
     }
 
-    // this.pointerr = new Pointerr(
-    //   this,
-    //   this.pointy.x + 70,
-    //   this.pointy.y,
-    //   100,
-    //   100
-    // )
+    this.pointerr = new Pointerr(
+      this,
+      this.pointy.x + 70,
+      this.pointy.y,
+      100,
+      100
+    )
 
-    // if ('spacebar'.isDown) {
-    //   weapon.fire()
-    // }
-    // pointerr.destroy()
   }
 }

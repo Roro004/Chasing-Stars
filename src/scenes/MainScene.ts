@@ -36,14 +36,14 @@ export default class MainScene extends Phaser.Scene {
     // Give him velocity
     this.pointy.body.velocity.x = 50
 
-   // Create Flecks
+    // Create Flecks
     this.flecksGroup = this.physics.add.group({
       classType: Flecks,
       key: 'flecks',
       repeat: 10,
     })
 
-// Add targets
+    // Add targets
     this.targets = this.physics.add.group({
       classType: Target,
     })
@@ -54,13 +54,10 @@ export default class MainScene extends Phaser.Scene {
       this.targets,
       this.pointyReachedTarget,
       null,
-      this
+      this,
     )
 
-
-
-
-// Create a new target when mouse is pressed
+    // Create a new target when mouse is pressed
     this.input.on('pointerdown', (pointer: Phaser.Input.Pointer) => {
       // Note: 'new' is required
       const position = new Phaser.Math.Vector2(pointer.position)
@@ -69,55 +66,30 @@ export default class MainScene extends Phaser.Scene {
       this.targets.get(position.x, position.y)
     })
 
-
-  // const sprite = this.add.sprite( 'target').setInteractive()
-
-  // sprite.on('pointerdown', function (pointer) {
-  //   sprite.destroy()
-  // })
-
-  //  const sprite1 = this.add.image( PauseA.x,P'pause').setInteractive()
-
-  // sprite1.on('pointerdown', function (pointer) {
-  //   sprite1.destroy()
-  // })
-  //   this.input.on('pointerdown', function(pointer, target) {
-
-  //   })
-  //    this.target.on(
-  //      'pointerdown',
-  //      function (Pointer) {
-  //       target.destroy()
-
-
+    // Crreating test planets
     this.planetA = new Planet(this, 200, 500, 100, 100)
     this.planetB = new Planet(this, 400, 400, 200, 200)
     this.planetC = new Planet(this, 500, 500, 200, 200)
 
     this.pauseA = new Pause(this, 750, 25, 200, 200)
 
+    // Making pause have an effect
     this.input.on('pausedown', function (pointer, pause) {
       this.scene.pause()
     })
-    //  this.target = new Target(this, this.currentx, currenty, 55, 55)
-
-    // this.star = new Star(this, 500, 500, 100, 100)
-
-
-
-
   }
+
+  // Destroying the target
   pointyReachedTarget(_pointy: PointySprite, target: Target) {
     target.destroy()
   }
 
   update() {
-
+    // Making pointy accelrate to the planet
     this.physics.accelerateToObject(this.pointy, this.planetA, 100)
-
+    // Making Pointy go for the next target first
     if (this.targets.countActive() > 0) {
       const firstTarget: Target = this.targets.getFirstAlive()
-
 
       const target = new Phaser.Math.Vector2(firstTarget.x, firstTarget.y)
 
@@ -125,14 +97,13 @@ export default class MainScene extends Phaser.Scene {
 
       this.physics.moveToObject(this.pointy, target, 400)
     }
-
+    // Pointys horn
     this.pointerr = new Pointerr(
       this,
       this.pointy.x + 70,
       this.pointy.y,
       100,
-      100
+      100,
     )
-
   }
 }
